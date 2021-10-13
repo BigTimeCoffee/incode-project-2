@@ -1,0 +1,436 @@
+/*grey: #707a8a
+light-gray: #bcc0c7
+dark-grey: #5c5b5b
+background color: #f5f5f5*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5ef;
+    height: 100%;    
+}
+/* Nav-bar */
+nav {
+    background-color: #707a8a;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a {
+    font-family: "Roboto-Condensed", sans-serif;
+    font-size: .65em;
+    color:#f5f5f5;
+    background-color: #707a8ad;
+    display: block;
+    line-height: 3em;
+    padding: 1em 1.5em;
+    padding-right: em;
+    text-decoration: none;
+}
+nav ul li:first-child {
+    margin-right: auto;
+}
+.nav-logo {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    padding-left: 30px;
+}
+/* Nav-bar ends */
+/* Footer */
+.foot-contain {
+    background-color: #707a8a;
+    text-align: center;
+
+      /*display: flex; When flex is applied I can't center the ul */
+}
+.my-list {
+    list-style-type: none;
+}
+.list-items {
+    display: inline-block;
+    padding: 15px;
+}
+.social-logo{
+    width: 25px;
+}
+.foot-logo {
+    width: 45px;
+    float: left;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+.follow-us {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .65em; 
+    padding-top: 25px;
+    color: #f5f5f5;
+}
+/* Footer ends */
+/* Image with text over */
+.logo-mr-c {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.image-wrapper {
+    width: 90%;
+    position: relative;
+    
+}
+.image-wrapper img {
+  width: 92%; 
+  margin: 10px 100px; 
+}
+.text {
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-family: sans-serif;
+    text-shadow:2px 2px 8px black;
+}
+/* Image with text ends */
+/* Three boxes */
+.three-things, .discover-us {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*margin-left: 140px;*/
+}
+.left {
+    box-shadow:  1px 1px 10px #5c5b5b;
+    width: 25%;
+    margin: 25px;
+    background-color: #bcc0c7;
+}
+.center {
+    box-shadow:  1px 1px 10px #5c5b5b;
+    width: 25%;
+    margin: 25px;
+    background-color: #bcc0c7;
+}
+.right {
+    box-shadow:  1px 1px 10px #5c5b5b;
+    width: 25%;
+    margin: 25px;
+    background-color: #bcc0c7;
+}
+.icon-cafe {
+    width: 100px;
+    padding-left: 105px;
+    padding-top: 30px;
+}
+.icon-hands {
+    width: 100px;
+    padding-left: 105px;
+    padding-top: 30px;
+}
+.icon-book {
+    width: 100px;
+    padding-left: 105px;
+    padding-top: 30px;
+}
+.card-text-heading {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow:2px 2px 2px #5c5b5b;
+}
+.card-text {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .65em;
+    padding: 0px 30px 30px 30px;
+ 
+}
+/* Big Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.big-button {
+    background-color: #707a8a;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0.25px 0.25px 0.25px #bcc0c7;
+}
+/* 7 days a week header */
+.days-7 {
+    display: flex;
+}
+.day-logo-7 {
+    width: 80px; 
+    height: 90px;
+    margin-left: 100px;  
+}
+.day-7-text-bold {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 900;
+    padding: 30px;
+}
+/* Header ends */
+/* Pottery & Philosophy */
+.activities {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: -40px;
+}
+.pottery, .philosophy {
+    width: 35%;
+    margin: 50px;
+}
+.day-7-text-normal {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 500;
+    text-align: center;
+}
+.activities-text-bold {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 800;
+}
+/* Pottery & Philosophy ends */
+/* Workshop */
+.workshop-text {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 500;
+    text-align: center;
+    margin: 60px;
+}
+/* Information */
+.information-text {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 600;
+    font-size: 1.15em;
+    text-align: center;
+    margin: 70px;
+}
+/* First Page ends */
+/*About Page */
+.chez-coffee-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.chez-text, .almost-text {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.chez-img {
+   width: 430px; 
+   height: 650px;
+}
+.almost-coffee-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.almost-img {
+    width: 450px;
+    height: 550px;
+}
+/* Contact Page */
+.waiting{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-size: 1.6em;
+    
+}
+.location-text {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-size: 1.2em;
+}
+.location-text-bold {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.location-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.location-width {
+    width: 700px;
+}
+/* Media queries */
+/*Homepage */
+@media only screen and (max-width: 813px) {
+    .box-container {
+        flex-wrap: wrap;
+    }
+    ..image-wrapper img {
+        display: flex;
+        justify-self: center;
+    }
+    .left, .center, .right {
+        width: 35%;
+    }
+    .icon-cafe, .icon-book, .icon-hands {
+        display: none;
+    }
+    nav {
+        width: 520px;
+    }
+    footer {
+        width: 520px;
+    }
+    .text {
+        display: none;
+    }
+    .logo-mr-c {
+       margin-left: 150px;
+    }
+    .three-things {
+        margin-left: 150px;   
+    }
+    .box-container {
+        justify-content:space-around;
+    }
+    /*About*/
+    
+}
+
+/* Form style */
+.form-style {
+    display: flex;
+    justify-content: center;
+    color: #5c5b5b;
+    font-size: 1.2em;
+    width: 100%;
+}
+input {
+    margin: 15px;
+    width: 670px;
+    height: 50px;
+    background-color: #bcc0c7;
+    border: #bcc0c7;
+    border-radius: 0%;
+}
+::placeholder {
+    color: white;
+}
+#message {
+    height: 150px
+}
+textarea {
+    margin: 15px;
+    width: 670px;
+    height: 50px;
+    background-color: #bcc0c7;
+    border: #bcc0c7;
+    border-radius: 0%;
+    font-family: sans-serif;
+}
+#send {
+    margin-left: 230px;
+    background-color: #707a8a;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #080f1f;
+}
+#formError {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+/* Pop-up */
+.modal-container {
+    display: none;  
+    position: fixed;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center; 
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;  
+    background-color: rgba(0,0,0,0.4);
+}
+.modal {
+    background-color: white;
+    margin: 15% auto;
+    padding: 2%;
+    padding-top: 4%;
+    border: 1px solid #bcc0c7;
+    width: 80%;
+    height: 65%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #5c5b5b;
+}
+div.modal>img {
+    width: 8%;
+    float: left;
+}
+.my-button {
+    background-color: #707a8a;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    width: 30%;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #080f1f;
+}
+div.modal>p {
+    text-align: center;
+}
+.answer {
+    padding-left: 4%
+}
+    
